@@ -1,0 +1,82 @@
+html {
+    text-align: center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+h1 {
+    font-style:initial;
+}
+  
+ img {
+  display: block;
+  width: 30%;
+  margin: auto;
+  border-radius: 30pc;
+}
+
+div.Lvideoasset {
+  display: flex;
+  justify-content: space-around;
+  gap: 5pc;
+}
+div.Lvideotext {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+iframe {
+  border-radius: 0.5pc;
+}
+div.Svideoasset {
+  display: flex;
+  justify-content: space-around;
+}
+div.Svideotext {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+div.reseaux {
+  display: flex;
+  align-items: center; /* Aligne verticalement les éléments */
+  gap: 10px; /* Espacement entre les éléments */
+}
+
+div.reseaux img {
+  width: 55px; /* Assure une taille correcte des icônes */
+  height: 55px;
+}
+
+div.reseaux a, div.reseaux h5 {
+  margin: 0; /* Supprime les marges par défaut des textes */
+  align-self: center; /* Aligne les textes avec les icônes */
+}
+
+body {
+  background-color: rgb(63, 63, 62);
+}
+div.Prs {
+  background-color: rgb(39, 100, 39);
+  border: 200pc rgb(235, 233, 233);
+}
+div.Lvideo {
+  background-color: rgb(49, 49, 48);
+  border: 20pc rgb(235, 233, 233);
+}
+div.Svideo {
+  background-color: rgb(39, 100, 39);
+  border: 20pc rgb(235, 233, 233);
+}
+div.Contact {
+  display: flex;
+  justify-content: center;
+  background-color: rgb(49, 49, 48);
+  border: 200pc rgb(235, 233, 233);
+  align-items: center;  
+  gap: 2px;
+}
+div.Contact img {
+  width: 55;
+  height: 55;
+  align-items: center;
+}
